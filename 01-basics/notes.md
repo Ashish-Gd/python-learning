@@ -28,3 +28,13 @@ Return value
 
 Variable
 -store value, we can use it to return the value
+
+
+Variables.py
+variable outside the function are GLOBAL variables 
+variable inside the function are LOCAL variables
+
+gloable variable can be used everywhere (ex., global x =10)
+but if i create same x=9 variable inside the function then printed it 
+we will get the output of the local variable i.e, x=9
+

@@ -1,19 +1,40 @@
-'''Print("Hello World!")
-input("Enter Your Name: ")
-print("Hello, David")
-'''
+x=5
+X=66
+y=3
+z=10
+z=11
 
-#Furbished
-name = input("What is Your Name: ")
-print("Hello,", name)
-#Another Way to print the input
-print(f"Hello, {name}")
+print(x)
+print(y)
+print(z)  #the next value of z will be printed always
 
 
-#1.end function 
-print("Hello, ", end="")
-print("David")             #end="" use kelyavar extra (enter) nighun jata, to check remove the end function 
+print(type(z)) #gives the type of the value ex., int, string.
 
-#2.sep function (Seperator function)
-print("Hello,", sep="meow")
-print("David")             #sep="anything u want" he function use kelyavar space chay jagi, je pn sep madih ye te yeta
+#Assigning multiple valuses
+
+a=b=c=1,2,3
+print(a)
+print(b)
+print(c)
+
+print(type(c))
+
+d=e=f="Orange"
+print(d)
+print(e)
+print(f)
+
+print(type(f))
+
+fruits=["mango","kiwi","apple"]
+
+h,i,j=fruits
+
+print(h)
+print(i)
+print(j)
+
+print(h + i + j)
+
+
